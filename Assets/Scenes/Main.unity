@@ -318,7 +318,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2646701234037317991, guid: b974d2e5cdf04486b8474ec911ccfe53, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2646701234037317991, guid: b974d2e5cdf04486b8474ec911ccfe53, type: 3}
       propertyPath: m_LocalPosition.z
@@ -356,5 +356,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: Orange
       objectReference: {fileID: 0}
+    - target: {fileID: 9101925832920947654, guid: b974d2e5cdf04486b8474ec911ccfe53, type: 3}
+      propertyPath: slicedFruitPrefab
+      value: 
+      objectReference: {fileID: 3490317877727775947, guid: c044d1377f40e4b67bed0a412b2589ce, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b974d2e5cdf04486b8474ec911ccfe53, type: 3}
