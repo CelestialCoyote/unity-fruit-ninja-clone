@@ -1,10 +1,9 @@
 fileFormatVersion: 2
-guid: 3bd0d493a6aeb4e04a5f381a7340c174
+guid: 2d16dd252d44f49878f7038c7d20ad22
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences:
-  - slicedFruitPrefab: {instanceID: 0}
+  defaultReferences: []
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
