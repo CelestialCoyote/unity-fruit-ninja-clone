@@ -135,4 +135,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3bd0d493a6aeb4e04a5f381a7340c174, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slicedFruitPrefab: {fileID: 0}
+  slicedFruitPrefab: {fileID: 3490317877727775947, guid: c044d1377f40e4b67bed0a412b2589ce, type: 3}
