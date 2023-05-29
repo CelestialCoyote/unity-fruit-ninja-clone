@@ -12,6 +12,8 @@ public class Fruit : MonoBehaviour {
         GameObject instance = (GameObject)Instantiate(slicedFruitPrefab, transform.position, transform.rotation);
         Rigidbody[] rigidbodiesOnSliced = instance.transform.GetComponentsInChildren<Rigidbody>();
 
+		FindObjectOfType<GameManager>().PlaySliceSound();
+
         foreach(Rigidbody rigidbody in rigidbodiesOnSliced){
             rigidbody.transform.rotation = Random.rotation;
             rigidbody.AddExplosionForce(Random.Range(500, 1000), transform.position, 5.0f);
