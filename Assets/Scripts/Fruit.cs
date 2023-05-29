@@ -17,6 +17,8 @@ public class Fruit : MonoBehaviour {
             rigidbody.AddExplosionForce(Random.Range(500, 1000), transform.position, 5.0f);
         }
         
+		FindObjectOfType<GameManager>().IncreaseScore(3);
+
 		Destroy(instance.gameObject, 5);
 		Destroy(gameObject);
     }
